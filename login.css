@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    font-family:sans-serif;
+}
+.body{    
+    height: 50vh;
+
+}
+.container{
+    display: flex;
+    flex-direction:row-reverse;
+    width: 100%;
+    height:100vh;
+
+}
+.image-right{
+   flex: 1;
+   background-image: url(assets/login.svg);
+    background-size: cover; 
+    background-position: center;
+ }
+.login{
+  
+    flex:1;
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-content: center;  
+} 
+
+.login-container{ 
+    font-size: 1.7em;
+   width: 60%;
+   text-align: center;
+        
+}
+.h1{
+   
+    color: black;
+    font-family: poppines;
+
+}
+.sub-tittle{
+padding: 20px;
+color: #636364;
+}
+.form-grp{
+
+   padding-top: 20px;
+}
+input[type="email"],input[type="password"]{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding:15px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+
+}
+.exrta-fields{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    font-size: 0.8em;
+
+}
+
+.forgot-password{
+
+    text-decoration: none;
+    font-size: 0.8em;
+}
+.forgot-password:hover{
+    text-decoration: underline;
+}
+.label{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 1em;
+    text-align:start;
+    padding-bottom: 10px;
+
+}
+.sign-in-button,
+.google-button{
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+      width: 100%;
+      padding:10px;
+      border: none;
+      border-radius: 12px;
+      font-size:0.7em;
+      cursor: pointer;
+}
+.google-icon{
+display: flex;
+align-items: center;
+    width: 5%;
+    height: 3vh;
+
+}
+.google-button{
+    border: 1px solid #ccc;
+    color: black
+}
+.span-sign{
+    color:#EA454C;
+}
+.sign-in-button{
+    color: white;
+    padding: 19px;
+    background-color:#EA454C;
+}
+
+
+
+.sign-in-free{
+   text-decoration: none;
+    text-align: center;
+}
+.no-account{
+    text-decoration: underline;
+}
+.no-account{
+    padding:20px;
+    color: black;
+    font-size: 0.7em;
+}
